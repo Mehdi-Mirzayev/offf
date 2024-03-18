@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction:wrap-reverse;
+    justify-content:start;
+    
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+}
+.glt_img{
+    background: url(https://st.hzcdn.com/simgs/92b13134082bb618_4-2644/home-design.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: calc(100vh - 100px);
+    background-position: center;
+   
+    
+}
+.icon{
+    display: flex;
+    position: absolute;
+    right: 80px;
+    top: 60px;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.text_h1{
+    color: white;
+    width: 800px;
+   position: absolute;
+   top: 300px;
+   left: 300px;
+}
+
+.welcome_h1{
+    position: absolute;
+    top: 800px;
+    left: 20px;
+}
+.about{
+    position: absolute;
+    top: 800px;
+    left: 700px;
+    width: 500px;
+}
